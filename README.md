@@ -9,7 +9,7 @@ This repository demonstrates some of the most significant features introduced in
 
 2. [Features Overview](#)
     - [Virtual Threads](#)
-    - [Record Patterns](#)
+    - [Pattern Matching in Switch](#)
     - [Sequenced Collections](#)
     - [Pattern Matching for Switch](#)
     - [Virtual Threads](#)
@@ -24,3 +24,5 @@ This repository demonstrates some of the most significant features introduced in
 https://www.oracle.com/java/technologies/javase/21-relnote-issues.html
 ## Features
 Virtual Threads: Lightweight,JVM scheduler takes care of thread pooling
+
+Pattern Matching in Switch: Seamless auto casting

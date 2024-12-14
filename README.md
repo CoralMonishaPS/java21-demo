@@ -23,3 +23,4 @@ This repository demonstrates some of the most significant features introduced in
 ## Release Notes
 https://www.oracle.com/java/technologies/javase/21-relnote-issues.html
 ## Features
+Virtual Threads: Lightweight,JVM scheduler takes care of thread pooling

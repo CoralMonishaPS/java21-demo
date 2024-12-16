@@ -10,7 +10,7 @@ public class PatternMatchingInSwitchBefore {
         if(object instanceof Integer){
             Integer integer=(Integer) object;
             System.out.println(integer+".(Integer)");
-        }
+        }else System.out.println("Unknown");
     }
 
 }

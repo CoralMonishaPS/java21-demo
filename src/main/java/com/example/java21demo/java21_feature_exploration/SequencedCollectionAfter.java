@@ -1,7 +1,7 @@
 package com.example.java21demo.java21_feature_exploration;
 
-import java.util.LinkedHashMap;
-import java.util.SequencedMap;
+import java.util.*;
+
 /**
  * Represents benefits of SequencedMap in Collection.
  *
@@ -20,5 +20,9 @@ public class SequencedCollectionAfter {
         map.put("C",3);
         System.out.println(map.firstEntry().getKey()+" is the first key");
         System.out.println(map.lastEntry().getKey()+" is the last key");
+
+        //List
+        SequencedCollection<String> collection=new ArrayList<>(List.of("A","B"));
+        collection.reversed().forEach(System.out::println);
     }
 }

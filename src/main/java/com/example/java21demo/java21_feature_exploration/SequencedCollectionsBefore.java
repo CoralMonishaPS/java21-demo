@@ -1,7 +1,7 @@
 package com.example.java21demo.java21_feature_exploration;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
+
 /**
  * Represents drawbacks of iteration in Map.
  *
@@ -24,5 +24,12 @@ public class SequencedCollectionsBefore {
         }
         System.out.println(firstKey+" is the firstkey");
         System.out.println(lastKey+" is the lastKey");
+
+        //List
+        List<String> list=new ArrayList<>();
+        list.add("A");
+        list.add("B");
+        Collections.reverse(list);
+        System.out.println(list+" is the reversed list");
     }
 }
